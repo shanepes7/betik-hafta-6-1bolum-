@@ -1,0 +1,8 @@
+
+import random
+r=random.randint(1,6)
+print(r)
+if r%2==0:
+    print('fenerbahce')
+else:
+    print('galatasaray')
