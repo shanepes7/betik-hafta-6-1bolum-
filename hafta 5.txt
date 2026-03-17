@@ -1,0 +1,42 @@
+kampus = [[[[[
+    {
+        'isim': 'nisa',
+        'yas': '19',
+        'adres': 'istanbul'
+    },
+    {
+        'isim': 'eylul',
+        'yas': '16',
+        'adres': 'bursa'
+    },
+    {
+        'isim': 'zeynep',
+        'yas': '14',
+        'adres': 'izmir'
+    }
+]]]]]
+
+for bina in kampus:
+    for kat in bina:
+        for sinif in kat:
+            for masa in sinif:
+                for ogr in masa:
+                    print(ogr['isim'])
+                    print(ogr['yas'])
+                    print(ogr['adres'])
+
+
+once sıte url adresını requst yap sonra lıstı cek oda:
+soup=beautıful...falan yap
+sıteden verı cekme for ıle cekılır print yaparak.
+sonra lınkı format yaparak bırlestırılır
+
+
+
+
+
+
+
+odev:milligazete.com.tr title baslık ,tarıh arasındakı cızgıyı yok edıcem sonra ıcerıklerını metınlerını bırlestırıcem sonra hersıne ayrı dıctıonary yapıcam 
+jayson tarıhı yazdırma satı kaldır
+bas
